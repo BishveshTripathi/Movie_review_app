@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header_div {
+  display: flex;
+  justify-content: center;
+  background-color: crimson;
+  color: blanchedalmond;
+  padding: 6px;
+}
+.body_div {
+  display: block;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.input_field {
+  position: relative;
+  top: 20px;
+  width: 300px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: rgb(221, 213, 213);
+  border: none;
+}
+.search_btn {
+  position: relative;
+  top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: cornflowerblue;
+  border: none;
+  cursor: pointer;
+}
+.footer_div {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  color: antiquewhite;
+  background-color: black;
+}
+.movie_container {
+}

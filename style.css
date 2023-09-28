@@ -11,10 +11,16 @@
   padding: 6px;
 }
 .body_div {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form_div {
   display: flex;
   justify-content: center;
-  gap: 8px;
+  align-items: center;
+  gap: 18px;
 }
 .input_field {
   position: relative;
@@ -41,8 +47,23 @@
   padding: 5px;
   display: flex;
   justify-content: center;
-  color: antiquewhite;
+  color: rgb(250, 165, 53);
   background-color: black;
 }
 .movie_container {
+  margin-top: 100px;
+  display: flex;
+  gap: 30px;
+  height: fit-content;
+  margin-left: 300px;
+  margin-right: 100px;
+}
+.movie_container .movie_element {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  color: rgb(43, 22, 108);
+}
+.movie_container .movie_element {
 }
